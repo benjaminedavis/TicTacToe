@@ -21,12 +21,13 @@ var move = function() {
     this.innerText = "O";
     count++;
   }
+  getWinner();
 };
 
-// for (var i = 0; i < 9; i++){
-// var el = document.querySelectorAll
-// allSquares[i].addEventListener('click', function());
-// }
+  for(var i = 0; i < 9; i++){
+allSquares[i].addEventListener('click', move);
+}
+
 // function clearBoard ()
 // document.querySelectorAll('.square') = "";
 // button.addEventListener('click', function clearBoard() );
